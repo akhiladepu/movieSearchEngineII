@@ -1,0 +1,86 @@
+body{
+    background-color: gray;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#main{
+    margin:225px auto;
+    width:300px;
+    align-items:center;
+}
+
+#inputBox {
+    width:298px;
+    height:30px;
+    text-align:center;
+    border:2px solid rgba(128, 128, 128, 0.8);
+    border-radius:5px;
+}
+
+#btn{
+    margin:10px 36%;
+    width:100px;
+    height:25px;
+    background-color:rgb(0, 173, 0);
+    border-radius:5px;
+    border:2px solid rgb(0, 173, 0);
+    color:white;
+}
+
+#movieDetails{
+    position:relative;
+    z-index: 2;
+    margin-top:10px !important;
+    background-color:white;
+    border-radius: 10px;
+    margin:auto 39%;
+    margin-top:-200px !important;
+}
+
+#movieDetails img{
+    margin:16px;
+    border-radius: 10px;
+}
+
+#movieDetails div{
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+#crossBtn{
+    position:relative;
+    z-index: 9;
+    float:right;
+    width: 25px;
+    height: 25px;
+    padding:auto;
+    border:0.5px solid black;
+    border-radius: 50%;
+    background-color:white
+}
+
+#notFound{
+    background-color:white;
+    border-radius: 10px;
+    margin:auto 39%;
+    margin-top:-200px !important;
+    margin-left: -250px !important;
+}
+#crossBtn2{
+    position:relative;
+    z-index: 9;
+    float:right;
+    width: 25px;
+    height: 25px;
+    padding:auto;
+    margin-top:-205px !important;
+    margin-right:-255px !important; 
+    border:0.5px solid black;
+    border-radius: 50%;
+    background-color:white
+}
+
+div > span{
+    font-weight: 400 !important;
+}
